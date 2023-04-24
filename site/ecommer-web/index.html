@@ -114,6 +114,7 @@ Tipo <code>String</code></p>
 <p><strong>Paso 5 <code>(opcional)</code></strong> — Descriprion de la compra <code>description</code> - Tipo <code>String</code></p>
 <p><strong>Paso 6 <code>(Obligatorio)</code></strong> — Se le debe de informar a Bio-Credit URL de retorno, que es la encargada de notificar el
 pago - <strong> SERVICIO TIPO POST </strong></p>
+<p><strong>Paso 7 <code>(Obligatorio)</code></strong> —  URL donde se notifica la respuesta por parte de BioCredit - <strong> SERVICIO TIPO POST </strong></p>
 <ul>
 <li>Codigo HTML</li>
 </ul>
@@ -122,6 +123,7 @@ pago - <strong> SERVICIO TIPO POST </strong></p>
     &lt;input type=&quot;hidden&quot; name=&quot;publicKey&quot; value=&quot;LLAVE_PUBLICA_DEL_COMERCIO&quot;/&gt;
     &lt;input type=&quot;hidden&quot; name=&quot;reference&quot; value=&quot;REFERENCE&quot;/&gt;
     &lt;input type=&quot;hidden&quot; name=&quot;redirect-url&quot; value=&quot;URL_REDIRECCION&quot;/&gt;
+    &lt;input type=&quot;hidden&quot; name=&quot;webhook-url&quot; value=&quot;URL_WEBHOOK&quot;/&gt;
     &lt;input type=&quot;hidden&quot; name=&quot;creditAmount&quot; id=&quot;creditAmount&quot; value=&quot;2300000&quot;/&gt;
     &lt;input type=&quot;hidden&quot; name=&quot;description&quot; value=&quot;DESCRIPTION&quot;/&gt;
     &lt;button type=&quot;submit&quot; class=&quot;boton-biocredit-color boton-biocredit-size&quot; id=&quot;button&quot;&gt;
